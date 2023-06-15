@@ -1,0 +1,51 @@
+*{
+    margin-top:10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    text-align: center;
+    color: rgb(251, 249, 248);
+}
+#ioo{
+    width: 98vw;
+    height: 92vh;
+}
+.container{
+    position: relative;
+}
+.qoute{
+    position: absolute;
+    top: 5px;
+    left:25%;
+    right:25%;
+    font-size: 20px;
+}
+.flex{
+    display: flex;
+    gap: 10px;
+}
+img{
+    width: 600px;
+    height: 350px;
+    border-radius: 10%;
+    transition: 1s;
+}
+img:hover{
+   transform: scale(0.9);
+   z-index: 2;
+}
+.text{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 70px;
+}
+.last{
+    margin-inline: 50px;
+}
+.footer{
+    border-top: solid ghostwhite 2px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
